@@ -93,7 +93,7 @@ export default function Home(): JSX.Element {
               <chakra.a
                 display="block"
                 target="_blank"
-                href="https://api.whatsapp.com/send/?phone=5583988392487&text&app_absent=0"
+                href="https://www.instagram.com/innovatejpa/"
                 transition="all 0.2s ease"
                 _hover={{
                   color: '#DC9B25',
@@ -105,7 +105,7 @@ export default function Home(): JSX.Element {
               <chakra.a
                 display="block"
                 target="_blank"
-                href="https://api.whatsapp.com/send/?phone=5583988392487&text&app_absent=0"
+                href="https://www.facebook.com/innovate.jpa/"
                 transition="all 0.2s ease"
                 _hover={{
                   color: '#DC9B25',
