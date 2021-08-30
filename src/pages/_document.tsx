@@ -47,7 +47,7 @@ export default class MyDocument extends Document {
           <meta property="twitter:image" content="/img/logo-display.png" />
         </Head>
         <body>
-          <ColorModeScript initialColorMode={theme.initialColorMode} />
+          <ColorModeScript initialColorMode={theme.config.initialColorMode} />
           <Main />
           <NextScript />
         </body>

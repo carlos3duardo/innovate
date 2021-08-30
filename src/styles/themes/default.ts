@@ -1,14 +1,15 @@
-// Overriding Chakra UI variables
+import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
-import { extendTheme } from '@chakra-ui/react';
-
-const theme = {
+const config: ThemeConfig = {
   initialColorMode: 'dark',
   useSystemColorMode: false,
+};
+
+const theme = {
   styles: {
     global: {
       body: {
-        backgroundColor: 'gray.50',
+        padding: '0',
       },
     },
   },
@@ -25,6 +26,6 @@ const theme = {
   },
 };
 
-const customTheme = extendTheme(theme);
+const customTheme = extendTheme({ config, theme });
 
 export default customTheme;
